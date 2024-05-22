@@ -1,0 +1,17 @@
+local player = game.Players.LocalPlayer
+local hitbox_vis = 0.7
+local username = game.Players.LocalPlayer.Name
+local accountAge = game.Players.LocalPlayer.AccountAge
+local executor = nil
+if syn then
+elseif Arceus-X-NEO then
+    executor = "Arceus X"
+elseif Delta then
+    executor = "Delta"
+elseif Fluxus then
+    executor = "Fluxus"
+elseif Vega_Loaded then
+    executor = "Vega X"
+else
+    executor = "Unknown"
+end
