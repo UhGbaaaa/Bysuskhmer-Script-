@@ -1,0 +1,490 @@
+local username = game.Players.LocalPlayer.Name
+local accountAge = game.Players.LocalPlayer.AccountAge
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-Script-/main/vff1bQ9F.txt"))()
+local Window = Library.CreateLib("1x1x1x1", "Midnight")
+
+ 
+---Hi
+ 
+local Tab1 = Window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Username: " .. username)
+local Tab1Section = Tab1:NewSection("Account Age: " .. tostring(accountAge) .. " days old")
+local Tab1Section = Tab1:NewSection("Script Creator By BlockBlack53")
+local Tab2 = Window:NewTab("Script")
+local Tab2Section = Tab2:NewSection("Script New")
+local Tab3 = Window:NewTab("Game")
+local Tab3Section = Tab3:NewSection("Murder Mystery 2")
+local Tab4Section = Tab3:NewSection("Lucky Block")
+local Tab6Section = Tab3:NewSection("Brookhaven PR")
+local Tab4 = Window:NewTab("Fe")
+local Tab5Section = Tab4:NewSection("Script FE")
+local Tab6 = Window:NewTab("1x1x1x1")
+local Tab10Section = Tab6:NewSection("Script")
+
+
+
+local ToggleGui = Instance.new("ScreenGui")
+local Toggle = Instance.new("TextButton")
+
+ToggleGui.Name = "ToggleGui_HE"
+ToggleGui.Parent = game.CoreGui
+
+Toggle.Name = "Toggle"
+Toggle.Parent = ToggleGui
+Toggle.BackgroundColor3 = Color3.fromRGB(255, 0, 5)
+Toggle.BackgroundTransparency = 0
+Toggle.Position = UDim2.new(0, 0, 0.454706937, 0)
+Toggle.Size = UDim2.new(0, 50, 0, 25)
+Toggle.Font = Enum.Font.SourceSans
+Toggle.Text = "1x1x1x1"
+Toggle.TextScaled = true
+Toggle.TextColor3 = Color3.fromRGB(255, 255, 255) 
+Toggle.TextSize = 24.000
+Toggle.TextXAlignment = Enum.TextXAlignment.Left
+Toggle.Active = true
+Toggle.Draggable = false
+Toggle.MouseButton1Click:connect(function()
+    Library:ToggleUI()
+end)
+
+--
+
+
+Tab1Section:NewSlider("Speed", "You The Speed", 999, 15, function(Walkspeed) -- 500 (MaxValue) | 0 (MinValue)
+    game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = Walkspeed
+end)
+
+
+Tab1Section:NewSlider("Jump Power", "Your Jump Power", 999, 50, function(Jumppower) -- 500 (MaxValue) | 0 (MinValue)
+       game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = Jumppower
+end)
+
+
+Tab1Section:NewToggle("FlyJump", "FlyJump ", function(state)
+    if state then
+        print("Toggle On")
+        getgenv().InfJ = true
+    game:GetService("UserInputService").JumpRequest:connect(function()
+        if InfJ == true then
+            game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+        end
+    end)
+    else
+        print("Toggle Off")
+        getgenv().InfJ = false
+    game:GetService("UserInputService").JumpRequest:connect(function()
+        if InfJ == true then
+            game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+        end
+    end)
+    end
+end)
+
+
+Tab1Section:NewTextBox("Hitbox", "Hitbox Player", function(Hitbox)
+	print(Hitbox)
+	_G.HeadSize = Hitbox
+_G.Disabled = true
+
+game:GetService('RunService').RenderStepped:connect(function()
+if _G.Disabled then
+for i,v in next, game:GetService('Players'):GetPlayers() do
+if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+pcall(function()
+v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+v.Character.HumanoidRootPart.Transparency = 0.9
+v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really red")
+v.Character.HumanoidRootPart.Material = "Neon"
+v.Character.HumanoidRootPart.CanCollide = false
+end)
+end
+end
+end
+end)
+end)
+
+
+Tab1Section:NewButton("Delete Hitbox", "Disabled Hitbox", function()
+    print("Clicked")
+    _G.Disabled = false
+end)
+
+
+Tab1Section:NewSlider("Fov", "Fov You Settings", 120, 70, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Workspace.CurrentCamera.FieldOfView = s
+end)
+
+
+local Tab1Section = Tab1:NewSection("Settings")
+
+
+Tab1Section:NewKeybind("Keybind", "KeybindInfo", Enum.KeyCode.L, function()
+	Library:ToggleUI()
+end)
+
+
+Tab1Section:NewToggle("ToggleDraggable", "False", function(state)
+    if state then
+        print("Toggle On")
+        Toggle.Draggable = true
+    else
+        print("Toggle Off")
+        Toggle.Draggable = false
+    end
+end)
+
+
+Tab1Section:NewColorPicker("Toggle Color", "Color Toggle", Color3.fromRGB(255,255,255), function(color)
+    print(color)
+    Toggle.BackgroundColor3 = color
+end)
+
+
+Tab1Section:NewColorPicker("Toggle Text Color", "Color Toggle Text", Color3.fromRGB(0,0,0), function(txtcor)
+    print(color)
+    Toggle.TextColor3 = txtcor
+end)
+
+
+Tab1Section:NewToggle("Toggle Show Text", "Toggle", function(state)
+    if state then
+        print("Toggle On")
+        Toggle.Text = "BYR"
+    else
+        print("Toggle Off")
+        Toggle.Text = "Toggle"
+    end
+end)
+
+
+Tab2Section:NewButton("Spectate", "Script Spectate", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-hub_411/main/Script%20Spectate%20Player%20Bysuskhmer"))()
+end)
+
+
+Tab2Section:NewButton("Korblox op Script", "Korblox op Script", function()
+    print("Clicked")
+    loadstring(game:HttpGet('https://pastebin.com/raw/H5yx10Jq'))()
+end)
+
+
+Tab2Section:NewButton("Tools All Give ", "Tools All Give ", function()
+    print("Clicked")
+    loadstring(game:HttpGet(('https://pastefy.app/VYIAk3o1/raw'),true))()
+end)
+
+
+Tab2Section:NewButton("ShikLock", "ShikLock", function()
+    print("Clicked")
+    local ShiftlockStarterGui = Instance.new("ScreenGui")
+local ImageButton = Instance.new("ImageButton")
+
+--Properties:
+
+ShiftlockStarterGui.Name = "Shiftlock (StarterGui)"
+ShiftlockStarterGui.Parent = game.CoreGui
+ShiftlockStarterGui.ZIndexBehavior =  Enum.ZIndexBehavior.Sibling
+ShiftlockStarterGui.ResetOnSpawn = false
+
+ImageButton.Parent = ShiftlockStarterGui
+ImageButton.Active = true
+ImageButton.Draggable = true
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.Position = UDim2.new(0.921914339, 0, 0.552375436, 0)
+ImageButton.Size = UDim2.new(0.0636147112, 0, 0.0661305636, 0)
+ImageButton.SizeConstraint = Enum.SizeConstraint.RelativeXX
+ImageButton.Image = "http://www.roblox.com/asset/?id=182223762"
+
+-- Scripts:
+
+local function TLQOYN_fake_script() -- ImageButton.ShiftGUI 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	local MobileCameraFramework = {}
+	local players = game:GetService("Players")
+	local runservice = game:GetService("RunService")
+	local CAS = game:GetService("ContextActionService")
+	local player = players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local root = character:WaitForChild("HumanoidRootPart")
+	local humanoid = character.Humanoid
+	local camera = workspace.CurrentCamera
+	local button = script.Parent
+	
+	--Visiblity
+	uis = game:GetService("UserInputService")
+	ismobile = uis.TouchEnabled
+	button.Visible = ismobile
+	
+	local states = {
+		OFF = "rbxasset://textures/ui/mouseLock_off@2x.png",
+		ON = "rbxasset://textures/ui/mouseLock_on@2x.png"
+	}
+	local MAX_LENGTH = 900000
+	local active = false
+	local ENABLED_OFFSET = CFrame.new(1.7, 0, 0)
+	local DISABLED_OFFSET = CFrame.new(-1.7, 0, 0)
+local rootPos = Vector3.new(0,0,0)
+local function UpdatePos()
+if player.Character and player.Character:FindFirstChildOfClass"Humanoid" and player.Character:FindFirstChildOfClass"Humanoid".RootPart then
+rootPos = player.Character:FindFirstChildOfClass"Humanoid".RootPart.Position
+end
+end
+	local function UpdateImage(STATE)
+		button.Image = states[STATE]
+	end
+	local function UpdateAutoRotate(BOOL)
+if player.Character and player.Character:FindFirstChildOfClass"Humanoid" then
+player.Character:FindFirstChildOfClass"Humanoid".AutoRotate = BOOL
+end
+end
+	local function GetUpdatedCameraCFrame()
+if game:GetService"Workspace".CurrentCamera then
+return CFrame.new(rootPos, Vector3.new(game:GetService"Workspace".CurrentCamera.CFrame.LookVector.X * MAX_LENGTH, rootPos.Y, game:GetService"Workspace".CurrentCamera.CFrame.LookVector.Z * MAX_LENGTH))
+end
+end
+	local function EnableShiftlock()
+UpdatePos()
+		UpdateAutoRotate(false)
+		UpdateImage("ON")
+if player.Character and player.Character:FindFirstChildOfClass"Humanoid" and player.Character:FindFirstChildOfClass"Humanoid".RootPart then
+player.Character:FindFirstChildOfClass"Humanoid".RootPart.CFrame = GetUpdatedCameraCFrame()
+end
+if game:GetService"Workspace".CurrentCamera then
+game:GetService"Workspace".CurrentCamera.CFrame = camera.CFrame * ENABLED_OFFSET
+end
+	end
+	local function DisableShiftlock()
+UpdatePos()
+		UpdateAutoRotate(true)
+		UpdateImage("OFF")
+		if game:GetService"Workspace".CurrentCamera then
+game:GetService"Workspace".CurrentCamera.CFrame = camera.CFrame * DISABLED_OFFSET
+end
+		pcall(function()
+			active:Disconnect()
+			active = nil
+		end)
+	end
+	UpdateImage("OFF")
+	active = false
+	function ShiftLock()
+		if not active then
+			active = runservice.RenderStepped:Connect(function()
+				EnableShiftlock()
+			end)
+		else
+			DisableShiftlock()
+		end
+	end
+	local ShiftLockButton = CAS:BindAction("ShiftLOCK", ShiftLock, false, "On")
+	CAS:SetPosition("ShiftLOCK", UDim2.new(0.8, 0, 0.8, 0))
+	button.MouseButton1Click:Connect(function()
+		if not active then
+			active = runservice.RenderStepped:Connect(function()
+				EnableShiftlock()
+			end)
+		else
+			DisableShiftlock()
+		end
+	end)
+	return MobileCameraFramework
+	
+end
+coroutine.wrap(TLQOYN_fake_script)()
+local function OMQRQRC_fake_script() -- ShiftlockStarterGui.LocalScript 
+	local script = Instance.new('LocalScript', ShiftlockStarterGui)
+
+	local Players = game:GetService("Players")
+	local UserInputService = game:GetService("UserInputService")
+	local Settings = UserSettings()
+	local GameSettings = Settings.GameSettings
+	local ShiftLockController = {}
+	while not Players.LocalPlayer do
+		wait()
+	end
+	local LocalPlayer = Players.LocalPlayer
+	local Mouse = LocalPlayer:GetMouse()
+	local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
+	local ScreenGui, ShiftLockIcon, InputCn
+	local IsShiftLockMode = true
+	local IsShiftLocked = true
+	local IsActionBound = false
+	local IsInFirstPerson = false
+	ShiftLockController.OnShiftLockToggled = Instance.new("BindableEvent")
+	local function isShiftLockMode()
+		return LocalPlayer.DevEnableMouseLock and GameSettings.ControlMode == Enum.ControlMode.MouseLockSwitch and LocalPlayer.DevComputerMovementMode ~= Enum.DevComputerMovementMode.ClickToMove and GameSettings.ComputerMovementMode ~= Enum.ComputerMovementMode.ClickToMove and LocalPlayer.DevComputerMovementMode ~= Enum.DevComputerMovementMode.Scriptable
+	end
+	if not UserInputService.TouchEnabled then
+		IsShiftLockMode = isShiftLockMode()
+	end
+	local function onShiftLockToggled()
+		IsShiftLocked = not IsShiftLocked
+		ShiftLockController.OnShiftLockToggled:Fire()
+	end
+	local initialize = function()
+		print("enabled")
+	end
+	function ShiftLockController:IsShiftLocked()
+		return IsShiftLockMode and IsShiftLocked
+	end
+	function ShiftLockController:SetIsInFirstPerson(isInFirstPerson)
+		IsInFirstPerson = isInFirstPerson
+	end
+	local function mouseLockSwitchFunc(actionName, inputState, inputObject)
+		if IsShiftLockMode then
+			onShiftLockToggled()
+		end
+	end
+	local function disableShiftLock()
+		if ScreenGui then
+			ScreenGui.Parent = nil
+		end
+		IsShiftLockMode = false
+		Mouse.Icon = ""
+		if InputCn then
+			InputCn:disconnect()
+			InputCn = nil
+		end
+		IsActionBound = false
+		ShiftLockController.OnShiftLockToggled:Fire()
+	end
+	local onShiftInputBegan = function(inputObject, isProcessed)
+		if isProcessed then
+			return
+		end
+		if inputObject.UserInputType ~= Enum.UserInputType.Keyboard or inputObject.KeyCode == Enum.KeyCode.LeftShift or inputObject.KeyCode == Enum.KeyCode.RightShift then
+		end
+	end
+	local function enableShiftLock()
+		IsShiftLockMode = isShiftLockMode()
+		if IsShiftLockMode then
+			if ScreenGui then
+				ScreenGui.Parent = PlayerGui
+			end
+			if IsShiftLocked then
+				ShiftLockController.OnShiftLockToggled:Fire()
+			end
+			if not IsActionBound then
+				InputCn = UserInputService.InputBegan:connect(onShiftInputBegan)
+				IsActionBound = true
+			end
+		end
+	end
+	GameSettings.Changed:connect(function(property)
+		if property == "ControlMode" then
+			if GameSettings.ControlMode == Enum.ControlMode.MouseLockSwitch then
+				enableShiftLock()
+			else
+				disableShiftLock()
+			end
+		elseif property == "ComputerMovementMode" then
+			if GameSettings.ComputerMovementMode == Enum.ComputerMovementMode.ClickToMove then
+				disableShiftLock()
+			else
+				enableShiftLock()
+			end
+		end
+	end)
+	LocalPlayer.Changed:connect(function(property)
+		if property == "DevEnableMouseLock" then
+			if LocalPlayer.DevEnableMouseLock then
+				enableShiftLock()
+			else
+				disableShiftLock()
+			end
+		elseif property == "DevComputerMovementMode" then
+			if LocalPlayer.DevComputerMovementMode == Enum.DevComputerMovementMode.ClickToMove or LocalPlayer.DevComputerMovementMode == Enum.DevComputerMovementMode.Scriptable then
+				disableShiftLock()
+			else
+				enableShiftLock()
+			end
+		end
+	end)
+	LocalPlayer.CharacterAdded:connect(function(character)
+		if not UserInputService.TouchEnabled then
+			initialize()
+		end
+	end)
+	if not UserInputService.TouchEnabled then
+		initialize()
+		if isShiftLockMode() then
+			InputCn = UserInputService.InputBegan:connect(onShiftInputBegan)
+			IsActionBound = true
+		end
+	end
+	enableShiftLock()
+	return ShiftLockController
+	
+end
+coroutine.wrap(OMQRQRC_fake_script)()
+end)
+
+
+Tab2Section:NewToggle("ShikLock Draggable Off", "Draggable", function(state)
+    if state then
+        print("Toggle On")
+        ImageButton.Draggable = false
+    else
+        print("Toggle Off")
+        ImageButton.Draggable = true
+    end
+end)
+
+
+Tab2Section:NewButton("Emote", "Emote", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
+end)
+
+
+Tab3Section:NewButton("ShyHUB", "Key", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://pastebin.com/raw/XHpPCTp2"))()
+end)
+
+
+Tab4Section:NewButton("Auto Get All 6.5 Seconds", "Script", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://pastebin.com/raw/DBKe0P40"))()
+end)
+
+
+Tab5Section:NewButton("Timer Stop [FE]", "Script", function()
+    print("Clicked")
+    loadstring(game:HttpGet('https://pastebin.com/raw/djAd7g2W'))()
+end)
+
+
+Tab5Section:NewButton("Char Bypass [FE]", "Script", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/ChatBypasser-AZY/main/Chat%20Bypass%20-%20ChatSplitter(Source).lua"))()
+end)
+
+
+Tab5Section:NewButton("Ghost Hack [FE]", "Script", function()
+    print("Clicked")
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+
+Tab5Section:NewButton("Godmode", "Script", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://pastebin.com/raw/6Gtw4YRD"))()
+end)
+
+
+Tab6Section:NewButton("Redz", "Script", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+end)
+
+
+Tab6Section:NewButton("JulHubz", "Script", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
+end)
