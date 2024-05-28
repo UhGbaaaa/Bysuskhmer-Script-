@@ -1,1 +1,5 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-Script-/main/Bysuskhmer%20%3D%20Update"))()
+ege = update 
+
+    if ege == "update" then   
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-Script-/main/Bysuskhmer%20%3D%20Update
+     end
