@@ -54,5 +54,3 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
  Duration = 5;
  Icon = "rbxassetid://";
 })
-
-wait(99)
