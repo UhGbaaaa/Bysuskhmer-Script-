@@ -3,4 +3,4 @@
 
 -- Script
 
-https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-Script-/main/Bysuskhmer%20New.txt
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-Script-/main/Bysuskhmer%20New.txt"))()
