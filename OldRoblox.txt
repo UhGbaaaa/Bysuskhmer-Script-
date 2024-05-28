@@ -42,7 +42,7 @@ getgenv().require = function(inst)
 end
 
 getgenv().LoadLibrary = function(str)
-return loadstring(game:GetObjects("rbxassetid://9133787982")[1][str].Source)()
+
 end
 
 --Delete CoreGui guis
