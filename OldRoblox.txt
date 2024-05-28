@@ -1096,14 +1096,14 @@ local TweenService = game:GetService("TweenService")
   label.BackgroundTransparency = 1
   label.TextTransparency = 1
   label.AnchorPoint = Vector2.new(0.5,0.5)
-  label.Text = "Old Roblox"
+  label.Text = "Loading Meun [True]"
   label.TextScaled = true
   label.Font = Enum.Font.Gotham
   label.TextColor3 = Color3.fromRGB(255, 255, 255)
   
   loadscreen.UICorner.CornerRadius = UDim.new(0.125,0)
   loadscreen.Size = UDim2.new(0.233,0,0.4,0)
-  loadscreen.Image = "http://www.roblox.com/asset/?id=14890616326"
+  loadscreen.Image = "http://www.roblox.com/asset/?id=7733960981"
   loadscreen.Position = UDim2.new(0.5,0,0.5,0)
   loadscreen.AnchorPoint = Vector2.new(0.5,0.5)
   loadscreen.BorderSizePixel = 0
