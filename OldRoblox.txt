@@ -1103,7 +1103,7 @@ local TweenService = game:GetService("TweenService")
   
   loadscreen.UICorner.CornerRadius = UDim.new(0.125,0)
   loadscreen.Size = UDim2.new(0.233,0,0.4,0)
-  loadscreen.Image = "http://www.roblox.com/asset/?id=7733960981"
+  loadscreen.Image = ""
   loadscreen.Position = UDim2.new(0.5,0,0.5,0)
   loadscreen.AnchorPoint = Vector2.new(0.5,0.5)
   loadscreen.BorderSizePixel = 0
