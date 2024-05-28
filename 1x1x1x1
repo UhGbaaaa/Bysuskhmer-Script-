@@ -1,5 +1,6 @@
-ege = update 
+-- Script Creator By Bysuskhmer
+-- Account Roblox BlockBlack53
 
-    if ege == "update" then   
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-Script-/main/Bysuskhmer%20%3D%20Update"))()
-     end
+-- Script
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-Script-/main/Bysuskhmer%20%3D%20Update"))()
