@@ -4,22 +4,8 @@ local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
 local Window = Library.CreateLib("Bysuskhmer HUB", "DarkTheme")
 
-local Tab1 = Window:NewTab("Player")
+local Tab1 = Window:NewTab("SCRIPT SOON")
 local Tab1Section = Tab1:NewSection("You Script")
-local Tab2 = Window:NewTab("Premium")
-local Tab2Section = Tab2:NewSection("50 Robux Premium You Buy !")
-local Tab3 = Window:NewTab("visual")
-local Tab3Section = Tab3:NewSection("Script visual ðŸ˜ˆ")
-local Tab4 = Window:NewTab("Fling")
-local Tab4Section = Tab4:NewSection("Fling GUI Script")
-local Tab5 = Window:NewTab("Games")
-local Tab5Section = Tab5:NewSection("Game Script")
-local Tab6 = Window:NewTab("Keyboard")
-local Tab6Section = Tab6:NewSection("Script Keyboard")
-local Tab7 = Window:NewTab("Roblox")
-local Tab7Section = Tab7:NewSection("Roblox old")
-local Settings= Window:NewTab("Settings")
-local SettingsSection = Settings:NewSection("Settings")
 
 wait(3)
 
@@ -52,5 +38,27 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
  Title = "SCRIPT UPDATE ";
  Text = "SOON";
  Duration = 5;
+ Icon = "rbxassetid://";
+})
+
+wait(1)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+ Title = "It will come soon ! ";
+ Text = "https://t.me/bysuskhmerhub";
+ Duration = 5;
+ Icon = "rbxassetid://";
+})
+
+wait(1)
+
+setclipboard("https://t.me/bysuskhmerhub")
+
+wait(4)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+ Title = "Join our group and you will get more news";
+ Text = "https://t.me/bysuskhmerhub";
+ Duration =10;
  Icon = "rbxassetid://";
 })
