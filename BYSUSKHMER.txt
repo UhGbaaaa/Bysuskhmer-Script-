@@ -1,0 +1,351 @@
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.5) ~  Much Love, Ferib 
+
+]]--
+
+local v0 = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))();
+local v1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))();
+local v2 = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))();
+local v3 = 1 - 0;
+local v4 = 5;
+local v5 = 490.1 - (59 + 431);
+local v6 = 0.5;
+wait(v3);
+v1:Notify({Title="GUI OPNE",Description="YOU SCRIPT"}, {OutlineColor=Color3.fromRGB(80, 80, 80),Time=5,Type="image"}, {Image="http://www.roblox.com/asset/?id=6023426923",ImageColor=Color3.fromRGB(255, 811 - (433 + 294), 84)});
+wait(v4);
+local v7 = 1847 - (1228 + 618);
+wait(v3);
+local v8 = v2.CreateLib("Bysuskhmer HUB", "LightTheme");
+wait(v3);
+local v9 = v8:NewTab("Player");
+wait(v5);
+local v10 = v9:NewSection("Create By BlockBlack53");
+local v11 = v9:NewSection("You Script");
+wait(v5);
+local v12 = v8:NewTab("Premium");
+wait(v5);
+local v13 = v12:NewSection("50 Robux Premium You Buy !");
+wait(v5);
+local v14 = v8:NewTab("visual");
+wait(v5);
+local v15 = v14:NewSection("Script visual 😈");
+wait(v5);
+local v16 = v8:NewTab("Fling");
+wait(v5);
+local v17 = v16:NewSection("Fling GUI Script");
+wait(v5);
+local v18 = v8:NewTab("Games");
+wait(v5);
+local v19 = v18:NewSection("Game Script");
+wait(v5);
+local v20 = v8:NewTab("Keyboard");
+wait(v5);
+local v21 = v20:NewSection("Script Keyboard");
+wait(v5);
+local v22 = v8:NewTab("Roblox");
+wait(v5);
+local v23 = v22:NewSection("Roblox old");
+wait(v5);
+local v24 = v8:NewTab("Settings");
+wait(v5);
+local v25 = v24:NewSection("Settings");
+wait(v5);
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 0 - 0;
+game.Workspace.CurrentCamera.FieldOfView = 200;
+wait(v3);
+v2:ToggleUI();
+wait(v3);
+v1:Notify({Title="Script Loading...",Description="Loading"}, {OutlineColor=Color3.fromRGB(317 - 237, 1032 - (802 + 150), 80),Time=5,Type="image"}, {Image="http://www.roblox.com/asset/?id=6023426923",ImageColor=Color3.fromRGB(255, 84, 225 - 141)});
+wait(9 - 4);
+v1:Notify({Title="Script Check...",Description="Loading"}, {OutlineColor=Color3.fromRGB(80, 59 + 21, 1077 - (915 + 82)),Time=10,Type="image"}, {Image="http://www.roblox.com/asset/?id=6023426923",ImageColor=Color3.fromRGB(722 - 467, 84, 49 + 35)});
+wait(13 - 3);
+wait(1188 - (1069 + 118));
+local v28 = Instance.new("ScreenGui");
+local v29 = Instance.new("ImageButton");
+v28.Name = "ToggleGui_HE";
+v28.Parent = game.CoreGui;
+v29.Name = "Toggle";
+v29.Parent = v28;
+v29.BackgroundColor3 = Color3.fromRGB(0 - 0, 0 - 0, 0 + 0);
+v29.BackgroundTransparency = 0.8 - 0;
+v29.Position = UDim2.new(0 + 0, 791 - (368 + 423), 0.454706937, 0 - 0);
+v29.Size = UDim2.new(18 - (10 + 8), 134 - 99, 442 - (416 + 26), 35);
+v29.Image = "rbxassetid://7743875962";
+v29.Active = true;
+v29.Draggable = true;
+v29.MouseButton1Click:connect(function()
+	v2:ToggleUI();
+end);
+v1:Notify({Title="SCRIPT SUCCESS",Description="WORK Go You Click Toggle F Opne Hack Script On ?"}, {OutlineColor=Color3.fromRGB(255 - 175, 35 + 45, 141 - 61),Time=(458 - (145 + 293)),Type="image"}, {Image="http://www.roblox.com/asset/?id=6023426923",ImageColor=Color3.fromRGB(685 - (44 + 386), 1570 - (998 + 488), 27 + 57)});
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 14 + 2;
+game.Workspace.CurrentCamera.FieldOfView = 842 - (201 + 571);
+v11:NewDropdown("Unlock Fps", "FPS", {"32 FPS","64 FPS","120 FPS"}, function(v43)
+	local v44 = 0 - 0;
+	while true do
+		if (v44 == (1 + 0)) then
+			v1:Notify({Title="Boom fps spam",Description="!!!"}, {OutlineColor=Color3.fromRGB(292 - 212, 284 - 204, 939 - (814 + 45)),Time=3,Type="image"}, {Image="http://www.roblox.com/asset/?id=6023426923",ImageColor=Color3.fromRGB(628 - 373, 5 + 79, 30 + 54)});
+			break;
+		end
+		if (v44 == 0) then
+			print(v43);
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-Script-/main/Fps%20booster.txt", true))();
+			v44 = 1;
+		end
+	end
+end);
+wait(v6);
+v11:NewTextBox("WalkSpeed", "You WalkSpeed", function(v45)
+	local v46 = 885 - (261 + 624);
+	while true do
+		if (v46 == 0) then
+			print(v45);
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v45;
+			v46 = 1;
+		end
+		if (v46 == (1 - 0)) then
+			v1:Notify({Title="Speed Span",Description=v45}, {OutlineColor=Color3.fromRGB(1160 - (1020 + 60), 1503 - (630 + 793), 271 - 191),Time=3,Type="image"}, {Image="http://www.roblox.com/asset/?id=6023426923",ImageColor=Color3.fromRGB(1207 - 952, 34 + 50, 84)});
+			break;
+		end
+	end
+end);
+wait(v6);
+v11:NewTextBox("JumpPower", "You JumpPower", function(v47)
+	local v48 = 0 - 0;
+	while true do
+		if (1 == v48) then
+			v1:Notify({Title="Jump Spam",Description=v47}, {OutlineColor=Color3.fromRGB(80, 1827 - (760 + 987), 80),Time=(1916 - (1789 + 124)),Type="image"}, {Image="http://www.roblox.com/asset/?id=6023426923",ImageColor=Color3.fromRGB(1021 - (745 + 21), 29 + 55, 84)});
+			break;
+		end
+		if (v48 == (0 - 0)) then
+			print(v47);
+			game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = v47;
+			v48 = 3 - 2;
+		end
+	end
+end);
+wait(v6);
+v11:NewSlider("Hitbox", "Hitbox Player Pvp", 30, 1 + 1, function(v49)
+	local v50 = 0;
+	while true do
+		if (v50 == (1 + 0)) then
+			game:GetService("RunService").RenderStepped:connect(function()
+				if _G.Disabled then
+					for v66, v67 in next, game:GetService("Players"):GetPlayers() do
+						if (v67.Name ~= game:GetService("Players").LocalPlayer.Name) then
+							pcall(function()
+								local v68 = 1055 - (87 + 968);
+								while true do
+									if (v68 == (8 - 6)) then
+										v67.Character.HumanoidRootPart.CanCollide = false;
+										break;
+									end
+									if (v68 == (1 + 0)) then
+										v67.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really Win");
+										v67.Character.HumanoidRootPart.Material = "Neon";
+										v68 = 4 - 2;
+									end
+									if (v68 == (1413 - (447 + 966))) then
+										v67.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize, _G.HeadSize, _G.HeadSize);
+										v67.Character.HumanoidRootPart.Transparency = 0.7 - 0;
+										v68 = 1;
+									end
+								end
+							end);
+						end
+					end
+				end
+			end);
+			v1:Notify({Title="Hitbox Spam",Description="!!!"}, {OutlineColor=Color3.fromRGB(80, 1897 - (1703 + 114), 80),Time=(704 - (376 + 325)),Type="image"}, {Image="http://www.roblox.com/asset/?id=6023426923",ImageColor=Color3.fromRGB(417 - 162, 258 - 174, 25 + 59)});
+			break;
+		end
+		if (v50 == (0 - 0)) then
+			_G.HeadSize = v49;
+			_G.Disabled = true;
+			v50 = 15 - (9 + 5);
+		end
+	end
+end);
+wait(v6);
+v11:NewToggle("infinite jump ", "infinite jump ", function(v51)
+	if state then
+		local v61 = 376 - (85 + 291);
+		while true do
+			if (v61 == (1266 - (243 + 1022))) then
+				game:GetService("UserInputService").JumpRequest:connect(function()
+					if (InfJ == true) then
+						game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Jumping");
+					end
+				end);
+				break;
+			end
+			if (v61 == 0) then
+				print("Toggle On");
+				getgenv().InfJ = v51;
+				v61 = 3 - 2;
+			end
+		end
+	else
+		print("Toggle Off");
+		getgenv().InfJ = v51;
+		game:GetService("UserInputService").JumpRequest:connect(function()
+			if (InfJ == true) then
+				game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Jumping");
+			end
+		end);
+		v1:Notify({Title="Fly Jump Spam",Description="!!!"}, {OutlineColor=Color3.fromRGB(66 + 14, 1260 - (1123 + 57), 66 + 14),Time=(257 - (163 + 91)),Type="image"}, {Image="http://www.roblox.com/asset/?id=6023426923",ImageColor=Color3.fromRGB(255, 2014 - (1869 + 61), 84)});
+	end
+end);
+wait(v6);
+v11:NewSlider("Fov", "You Fov", 34 + 86, 246 - 176, function(v52)
+	game.Workspace.CurrentCamera.FieldOfView = v52;
+	v1:Notify({Title="Fov Spam",Description="!!!"}, {OutlineColor=Color3.fromRGB(122 - 42, 11 + 69, 109 - 29),Time=(3 + 0),Type="image"}, {Image="http://www.roblox.com/asset/?id=6023426923",ImageColor=Color3.fromRGB(1729 - (1329 + 145), 1055 - (140 + 831), 84)});
+end);
+local v42 = v9:NewSection("Script");
+v42:NewButton("Fake Lags", "Lags", function()
+	print("Clicked");
+	loadstring(game:HttpGet("https://pastebin.com/raw/VM3b0Thg"))();
+end);
+wait(v6);
+v42:NewButton("Spectate", "Spectate", function()
+	local v54 = 0;
+	while true do
+		if (v54 == (1850 - (1409 + 441))) then
+			print("Clicked");
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-hub_411/main/Script%20Spectate%20Player%20Bysuskhmer"))();
+			break;
+		end
+	end
+end);
+wait(v6);
+v42:NewButton("Tools All Give", "Tools All Give", function()
+	local v55 = 718 - (15 + 703);
+	while true do
+		if (v55 == (0 + 0)) then
+			print("Clicked");
+			loadstring(game:HttpGet("https://pastefy.app/VYIAk3o1/raw", true))();
+			break;
+		end
+	end
+end);
+wait(v6);
+v42:NewButton("Fps booster", "Fps booster", function()
+	print("Clicked");
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-Script-/main/Fps%20booster.txt", true))();
+end);
+wait(v6);
+v15:NewButton("Script Esp", "Esp", function()
+	print("Clicked");
+	loadstring(game:HttpGet("https://pastebin.com/raw/iv9qAHZP"))();
+end);
+wait(v6);
+v15:NewButton("Player Esp", "Esp", function()
+	print("Clicked");
+	loadstring(game:HttpGet("https://pastebin.com/raw/5V9TWZ9L"))();
+end);
+wait(v6);
+v17:NewButton("Fling GUI", "Fling GUI", function()
+	print("Clicked");
+	loadstring(game:HttpGet("https://pastebin.com/raw/r97d7dS0", true))();
+end);
+wait(v6);
+v17:NewButton("Touch Fling", "GUI", function()
+	local v56 = 0;
+	while true do
+		if ((438 - (262 + 176)) == v56) then
+			print("Clicked");
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))();
+			break;
+		end
+	end
+end);
+wait(v6);
+v19:NewButton("Murder Mystery 2", " Script discontinued", function()
+	print("Clicked");
+	loadstring(game:HttpGet("https://pastebin.com/raw/XHpPCTp2"))();
+end);
+wait(v6);
+v19:NewButton("Pet Simulator 99", "Speed-Hub-X", function()
+	local v57 = 1721 - (345 + 1376);
+	while true do
+		if (v57 == (688 - (198 + 490))) then
+			print("Clicked");
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX"))();
+			break;
+		end
+	end
+end);
+wait(v6);
+v19:NewButton("Blox Fruit", "Rafanchik123", function()
+	print("Clicked");
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafanchik123/script/main/ZekromHub"))();
+end);
+wait(v6);
+v19:NewButton("Build a boat", "XRoLLu", function()
+	print("Clicked");
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua"))();
+end);
+wait(v6);
+v19:NewButton("Prison Life", "Admin", function()
+	local v58 = 0;
+	while true do
+		if (v58 == 0) then
+			print("Clicked");
+			loadstring(game:HttpGet("https://pastebin.com/raw/sgP7zUzC", true))();
+			break;
+		end
+	end
+end);
+wait(v6);
+v19:NewButton("Brookhaven", "Torll", function()
+	print("Clicked");
+	loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-Troll-12204"))();
+end);
+wait(v6);
+v21:NewButton("GGH52lan", "GGH52lan", function()
+	print("Clicked");
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GGH52lan/GGH52lan/main/keyboard.txt"))();
+end);
+wait(v6);
+v21:NewButton("Red_BloxZ", "Red_BloxZ", function()
+	local v59 = 0 - 0;
+	while true do
+		if (v59 == (0 - 0)) then
+			print("Clicked");
+			loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))();
+			break;
+		end
+	end
+end);
+wait(v6);
+v23:NewButton("Meun Old", "meun/old", function()
+	local v60 = 0;
+	while true do
+		if (v60 == 0) then
+			print("Clicked");
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-Script-/main/OldRoblox.txt", true))();
+			break;
+		end
+	end
+end);
+wait(v6);
+v23:NewButton("Best Mobile Shiftlock Script", "meun/old", function()
+	print("Clicked");
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Beta/alt/PermShiftlockLeft"))();
+end);
+wait(v6);
+v23:NewButton("Screen by Follow", "Screen", function()
+	print("Clicked");
+	loadstring(game:HttpGet("https://pastebin.com/raw/MRRbRPF6"))();
+end);
+wait(v6);
+v25:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
+	v2:ToggleUI();
+end);
+wait(v6);
+v1:Notify({Title="Work All Script Load",Description="SCRIPT ALL LOAD"}, {OutlineColor=Color3.fromRGB(80, 1286 - (696 + 510), 80),Time=5,Type="image"}, {Image="http://www.roblox.com/asset/?id=6023426923",ImageColor=Color3.fromRGB(534 - 279, 1346 - (1091 + 171), 14 + 70)});
