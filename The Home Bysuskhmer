@@ -2,6 +2,6 @@
 -- Account Roblox BlockBlack53
 
 -- Script
-Update 
---loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-Script-/main/BYSUSKHMER.txt"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-Script-/main/obf_V7ilDuL0n5RYe8RZn3CVYGM3IQKpUSz3lPI9bqVjyn4ywH1HDIg20vIztpGy4FI4.lua.txt"))()
 
